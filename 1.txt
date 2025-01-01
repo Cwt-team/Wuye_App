@@ -1,0 +1,55 @@
+WuyeApp/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/wuyeapp/
+│   │   │   │   ├── activities/
+│   │   │   │   │   ├── SplashActivity.kt
+│   │   │   │   │   ├── MainActivity.kt
+│   │   │   │   │   ├── UserInfoActivity.kt
+│   │   │   │   │   ├── SettingsActivity.kt
+│   │   │   │   ├── fragments/
+│   │   │   │   │   ├── HomeFragment.kt
+│   │   │   │   │   ├── UnlockFragment.kt
+│   │   │   │   │   ├── MyFragment.kt
+│   │   │   │   ├── model/
+│   │   │   │   │   ├── User.kt
+│   │   │   │   │   ├── Notification.kt
+│   │   │   │   ├── utils/
+│   │   │   │   │   ├── NetworkUtils.kt
+│   │   │   │   │   ├── PermissionUtils.kt
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   │   ├── ic_home.xml
+│   │   │   │   │   ├── ic_unlock.xml
+│   │   │   │   │   ├── ic_my.xml
+│   │   │   │   │   ├── ic_property.png
+│   │   │   │   ├── layout/
+│   │   │   │   │   ├── activity_splash.xml
+│   │   │   │   │   ├── activity_main.xml
+│   │   │   │   │   ├── fragment_home.xml
+│   │   │   │   │   ├── fragment_unlock.xml
+│   │   │   │   │   ├── fragment_my.xml
+│   │   │   │   │   ├── activity_user_info.xml
+│   │   │   │   │   ├── activity_settings.xml
+│   │   │   │   ├── menu/
+│   │   │   │   │   ├── bottom_nav_menu.xml
+│   │   │   │   ├── values/
+│   │   │   │   │   ├── strings.xml
+│   │   │   │   │   ├── colors.xml
+│   │   │   │   │   ├── themes.xml
+│   │   │   ├── AndroidManifest.xml
+│   │   ├── test/
+│   │   │   └── java/com/example/wuyeapp/
+│   │   │       ├── ExampleUnitTest.kt
+│   │   ├── androidTest/
+│   │   │   └── java/com/example/wuyeapp/
+│   │   │       ├── ExampleInstrumentedTest.kt
+│   ├── build.gradle
+│   ├── proguard-rules.pro
+├── build.gradle
+├── settings.gradle
+└── gradle/
+    └── wrapper/
+        ├── gradle-wrapper.jar
+        └── gradle-wrapper.properties

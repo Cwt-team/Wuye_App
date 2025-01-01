@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WuyeApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- 主要颜色 -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <!-- 次要颜色 -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <!-- 其他主题属性 -->
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- 启动页主题 -->
+    <style name="Theme.WuyeApp.Splash" parent="Theme.WuyeApp">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+</resources>
